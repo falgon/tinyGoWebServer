@@ -1,0 +1,12 @@
+[Unit]
+Description = Get contents daemon
+ConditionPathExists = /opt/getcontents/bin
+After = local-fs.target network.target nss-lookup.target
+
+[Service]
+ExecStart = /opt/getcontents/bin/getcontents.sh
+Restart = no
+Type = simple
+
+[Install]
+WantedBy = multi-user.target

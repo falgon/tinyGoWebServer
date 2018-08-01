@@ -1,0 +1,12 @@
+[Unit]
+Description = Application server daemon
+ConditionPathExists = /opt/appserver/bin
+After = nginx.service
+
+[Service]
+ExecStart = /opt/appserver/bin/appserver -contents_root="/var/www/html/" -listenIP="127.0.0.1:9000" -nfpage="404.html" -root="/" -sync_endpoint="/sns_notify"
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target

@@ -6,7 +6,7 @@ Tiny Go Web Server. AWS SNS + S3 + EC2 + Nginx Fast-CGI + systemd technology aut
 
 ## System structure
 
-![CorrelationDiagram](./UD.png)
+<img src="./UD.png" alt="CorrelationDiagram" width="400" />
 
 ## Build
 

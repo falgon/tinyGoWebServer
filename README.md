@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/falgon/tinyGoWebServer.svg?branch=master)](https://travis-ci.org/falgon/tinyGoWebServer)
 
-Tiny Go Web Server. AWS SNS + S3 + EC2 + Nginx Fast-CGI + systemd technology automatically synchronizes content on S3 bucket. [Here](https://falgon.github.io/roki.log/posts/2018/%208/01/aws_sns_s3_ec2/)'s a post covering the implementation in more detail.
+Tiny Go Web Server. AWS SNS + S3 + EC2 + Nginx Fast-CGI + systemd technology automatically synchronizes content on S3 bucket. [Here](https://falgon.github.io/roki.log/posts/2018/%208月/01/aws_sns_s3_ec2/)'s a post covering the implementation in more detail.
 
 ## System structure
 
